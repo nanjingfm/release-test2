@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "gomod" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "yearly"
+    open-pull-requests-limit: 0
+    groups:
+      production-dependencies:
+        update-types:
+          - patch
+        applies-to: security-updates
+        patterns:
+          - "*"
+    reviewers:
+      - nanjingfm
+    assignees:
+      - nanjingfm
