@@ -17,3 +17,5 @@ updates:
       - nanjingfm
     assignees:
       - nanjingfm
+    labels:
+      - "dependencies"
