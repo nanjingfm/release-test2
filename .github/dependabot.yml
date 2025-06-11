@@ -9,6 +9,7 @@ updates:
       production-dependencies:
         update-types:
           - patch
+          - minor
         applies-to: security-updates
         patterns:
           - "*"
