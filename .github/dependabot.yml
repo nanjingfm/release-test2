@@ -6,7 +6,7 @@ updates:
       interval: "yearly"
     open-pull-requests-limit: 0
     groups:
-      production-dependencies:
+      gomod:
         update-types:
           - patch
           - minor
